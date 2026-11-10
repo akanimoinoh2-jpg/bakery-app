@@ -1,0 +1,10 @@
+{
+  "name": "bakery-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix bakery-app",
+    "build": "npm run build --prefix bakery-app",
+    "preview": "npm run preview --prefix bakery-app",
+    "install:app": "npm install --prefix bakery-app"
+  }
+}
